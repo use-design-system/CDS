@@ -6,7 +6,8 @@
     "services/**/*"
   ],
   "scripts": {
-    "build": "nx build"
+    "build": "nx build",
+    "graph": "nx run-many --target=build --graph"
   },
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
