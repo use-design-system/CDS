@@ -34,7 +34,7 @@ const View = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Text>Learn React</Text>
+          <Text>{variables.box.radii.base}</Text>
         </a>
       </header>
     </div>
