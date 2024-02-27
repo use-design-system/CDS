@@ -2,12 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { ThemeProvider } from "@emotion/react";
 import styled from "@emotion/styled";
-import { variables } from "@lsj/themes";
+import { classes, variables } from "@lsj/themes";
 
 function App() {
   const theme = {
     colors: variables.colors.$static.light,
   };
+
+  console.log("h", classes.typography.heading["4xl"]);
 
   return (
     <ThemeProvider theme={theme}>
