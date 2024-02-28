@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx build @lsj/themes",
+    "startTime": "2024-02-28T08:41:17.426Z",
+    "endTime": "2024-02-28T08:41:21.981Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@lsj/esbuild-config:build",
+      "target": "build",
+      "projectName": "@lsj/esbuild-config",
+      "hash": "8448726783490483966",
+      "startTime": "2024-02-28T08:41:17.430Z",
+      "endTime": "2024-02-28T08:41:18.286Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@lsj/themes:build",
+      "target": "build",
+      "projectName": "@lsj/themes",
+      "hash": "1450360168664952812",
+      "startTime": "2024-02-28T08:41:18.287Z",
+      "endTime": "2024-02-28T08:41:21.981Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

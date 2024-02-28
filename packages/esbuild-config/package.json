@@ -1,0 +1,13 @@
+{
+  "name": "@lsj/esbuild-config",
+  "packageManager": "yarn@4.1.0",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "echo \"Taba!\""
+  },
+  "dependencies": {
+    "esbuild": "0.16.17"
+  }
+}
