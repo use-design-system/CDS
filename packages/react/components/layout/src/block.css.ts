@@ -4,5 +4,5 @@ import { style } from "@vanilla-extract/css";
 export const blockStyle = style({
   width: "100px",
   height: "100px",
-  backgroundColor: variables.colors.$scale.blue[500],
+  backgroundColor: variables.colors.$scale.pink[900],
 });

@@ -2,6 +2,7 @@
   "version": "6.0",
   "nxVersion": "18.0.5",
   "deps": {
+    "@storybook/addon-docs": "^7.6.17",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "@vanilla-extract/esbuild-plugin": "^2.3.5",
@@ -16,6 +17,7 @@
     "eslint-plugin-storybook": "^0.6.13",
     "nx": "^18.0.5",
     "prettier": "^3.0.3",
+    "storybook-addon-root-attributes": "^2.1.3",
     "typescript": "^5.3.3"
   },
   "pathMappings": {},
@@ -32,123 +34,140 @@
         "hash": "14052870021940613983"
       },
       {
-        "file": ".yarnrc.yml",
-        "hash": "16536213357553152811"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
-        "hash": "4314044071561164915"
-      },
-      {
-        "file": "tsconfig.eslint.json",
-        "hash": "9188420867814966836"
-      },
-      {
-        "file": ".yarn/sdks/prettier/index.cjs",
-        "hash": "14009293990004610656"
-      },
-      {
-        "file": ".yarn/sdks/integrations.yml",
-        "hash": "5703335058684100671"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/api.js",
-        "hash": "9218057077919128729"
-      },
-      {
-        "file": ".yarn/sdks/eslint/package.json",
-        "hash": "9302568071849794418"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "15322884351288772532"
-      },
-      {
-        "file": ".yarn/sdks/typescript/lib/typescript.js",
-        "hash": "11646577489253808815"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "17128172925806362931"
-      },
-      {
-        "file": ".yarn/releases/yarn-4.1.0.cjs",
-        "hash": "14650443470611873193"
-      },
-      {
-        "file": "package.json",
-        "hash": "16701521997375056496"
-      },
-      {
-        "file": "nx.json",
-        "hash": "14924708307150832443"
+        "file": ".gitignore",
+        "hash": "3236261695725184550"
       },
       {
         "file": ".prettierrc",
         "hash": "12078670118560183497"
       },
       {
-        "file": ".yarn/sdks/typescript/bin/tsc",
-        "hash": "10666650432257705452"
-      },
-      {
         "file": ".vscode/extensions.json",
         "hash": "10535867006991962306"
       },
       {
-        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
-        "hash": "8855614953399738736"
+        "file": ".vscode/settings.json",
+        "hash": "5192163659098944044"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsc.js",
-        "hash": "4914677750769979712"
+        "file": ".yarn/releases/yarn-4.1.0.cjs",
+        "hash": "14650443470611873193"
       },
       {
         "file": ".yarn/sdks/eslint/bin/eslint.js",
         "hash": "457324197634674399"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
-        "hash": "18097361510822175431"
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "9218057077919128729"
       },
       {
-        "file": ".yarn/sdks/typescript/package.json",
-        "hash": "2122891411943405775"
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "4314044071561164915"
+      },
+      {
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "9302568071849794418"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "5703335058684100671"
+      },
+      {
+        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
+        "hash": "8855614953399738736"
+      },
+      {
+        "file": ".yarn/sdks/prettier/index.cjs",
+        "hash": "14009293990004610656"
       },
       {
         "file": ".yarn/sdks/prettier/package.json",
         "hash": "2700667442143997768"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsserver.js",
-        "hash": "5132865039172914386"
+        "file": ".yarn/sdks/typescript/bin/tsc",
+        "hash": "10666650432257705452"
       },
       {
         "file": ".yarn/sdks/typescript/bin/tsserver",
         "hash": "15690408123434230734"
       },
       {
-        "file": ".gitignore",
-        "hash": "3236261695725184550"
+        "file": ".yarn/sdks/typescript/lib/tsc.js",
+        "hash": "4914677750769979712"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "5192163659098944044"
+        "file": ".yarn/sdks/typescript/lib/tsserver.js",
+        "hash": "5132865039172914386"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "18097361510822175431"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "11646577489253808815"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "2122891411943405775"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "16536213357553152811"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2802105145389868175"
+      },
+      {
+        "file": "package.json",
+        "hash": "12961067797907466727"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15322884351288772532"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "9188420867814966836"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "13861742426732877374"
       }
     ],
     "projectFileMap": {
-      "@lsj/esbuild-config": [
+      "@lsj/storybook": [
         {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "13017944318474362528"
         },
         {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "15323863115476143129"
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "16483512796439134979"
         },
         {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "2106572581183572671"
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "3298608592166015659"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "9335842939669221832",
+          "deps": [
+            "@lsj/react-components-layout",
+            "@lsj/themes",
+            "npm:storybook-addon-root-attributes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
+          "hash": "16979016137589994474"
         }
       ],
       "@lsj/themes": [
@@ -217,6 +236,20 @@
           "hash": "10248009443664204963"
         }
       ],
+      "@lsj/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "15323863115476143129"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "2106572581183572671"
+        }
+      ],
       "@lsj/react-components-layout": [
         {
           "file": "packages/react/components/layout/build.js",
@@ -224,7 +257,7 @@
         },
         {
           "file": "packages/react/components/layout/package.json",
-          "hash": "14081377072794672558",
+          "hash": "4469383329998349906",
           "deps": [
             "npm:@vanilla-extract/esbuild-plugin",
             "@lsj/esbuild-config",
@@ -238,7 +271,7 @@
         },
         {
           "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "16329993451347027010"
+          "hash": "3400630208629819002"
         },
         {
           "file": "packages/react/components/layout/src/index.ts",
