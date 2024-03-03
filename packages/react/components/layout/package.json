@@ -23,6 +23,7 @@
     "@lsj/themes": "workspace:^",
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
+    "@vanilla-extract/sprinkles": "^1.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.14.1",
-    "@vanilla-extract/esbuild-plugin": "^2.3.5"
+    "@vanilla-extract/esbuild-plugin": "^2.3.5",
+    "clsx": "^2.1.0"
   }
 }
